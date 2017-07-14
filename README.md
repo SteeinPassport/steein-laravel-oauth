@@ -10,8 +10,9 @@ Obtain your app ID and secret from [www.steein.ru](https://www.steein.ru/develop
 ### 1. Composer
 This assumes that you have composer installed globally:
 
+```
 composer require steeinpassport/steein-laravel-oauth
-
+```
 
 ## 2. Service Provider
 
