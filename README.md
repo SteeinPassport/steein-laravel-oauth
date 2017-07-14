@@ -5,7 +5,7 @@
 
 ### 0. Credentials
 
-Obtain your app ID and secret from [steein.ru](https://www.steein.ru/developers/docs). You must set up a valid name and callback URL.
+Obtain your app ID and secret from [www.steein.ru](https://www.steein.ru/developers/docs). You must set up a valid name and callback URL.
 
 ### 1. Composer
 This assumes that you have composer installed globally:
