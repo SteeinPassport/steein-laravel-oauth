@@ -30,10 +30,11 @@ For example:
 
 ## 3. Add the Event and Listeners
 
-Add SocialiteProviders\Manager\SocialiteWasCalled event to your listen[] array in <app_name>/Providers/EventServiceProvider.
-Add your listeners (i.e. the ones from the providers) to the SocialiteProviders\Manager\SocialiteWasCalled[] that you just created.
-The listener that you add for this provider is 'SocialiteProviders\Telegram\TelegramExtendSocialite@handle',.
-Note: You do not need to add anything for the built-in socialite providers unless you override them with your own providers.
+Add ```SocialiteProviders\Manager\SocialiteWasCalled``` event to your ```listen[]``` array in ```<app_name>/Providers/EventServiceProvider```.
+Add your listeners (i.e. the ones from the providers) to the ```SocialiteProviders\Manager\SocialiteWasCalled[]``` that you just created.
+The listener that you add for this provider is ```'SocialiteProviders\Steein\SteeinExtendSocialite@handle'```,.
+
+***Note:*** You do not need to add anything for the built-in socialite providers unless you override them with your own providers.
 
 For example:
 
